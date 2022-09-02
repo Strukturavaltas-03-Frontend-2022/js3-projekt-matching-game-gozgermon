@@ -1,0 +1,44 @@
+.pairs {
+    width: 700px;
+    height: 500px;
+    background-color: lightblue
+}
+
+.title{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 700px;
+    height: 400px;
+    background-color:lightblue;
+   
+  
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100px;
+    height: 150px;
+    background-color: silver;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    margin: 10px;
+    transition: background-color 1s
+   
+}
+.card h1{
+    color: silver;
+    font-family: Arial
+}
